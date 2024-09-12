@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba de HTML5</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset style="width: fit-content;">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" autofocus tabindex="1">
+            <br> <br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" tabindex="2">
+        </fieldset>
+        <br> <br>
+        <label for="url">URL:</label>
+        <input type="url" id="url" placeholder="Escribe la URL de tu página">
+        <br> <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha">
+        <br> <br>
+        <label for="tiempo">Tiempo:</label>
+        <input type="time" id="tiempo">
+        <br> <br>
+        <label for="hora">Fecha y Hora:</label>
+        <input type="datetime" id="hora">
+        <br> <br>
+        <label for="mes">Mes:</label>
+        <input type="month" id="mes">
+        <br> <br>
+        <label for="semana">Semana:</label>
+        <input type="week" id="semana">
+        <br> <br>
+        <label for="numero">Número (min -10, max 10):</label>
+        <input type="number" min="-10" max="10" id="numero">
+        <br> <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" tabindex="4">
+        <br> <br>
+        <label for="busqueda">Termino de búsqueda:</label>
+        <input type="search" id="busqueda">
+        <br> <br>
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color">
+        <br> <br>
+
+        <input type="submit">
+    </form>
+    
+    <br><br><br><br><br>
+
+
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br> <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+        <br> <br>
+        <select name="trabajo" id="work">
+            <optgroup label="Interior">
+                <option value="0">profesor</option>
+                <option value="1">secretario</option>
+                <option value="2">doctor</option>
+                <option value="3">arquitecto</option>
+                <option value="4">escritor</option>
+            </optgroup>
+            <optgroup label="Aire Libre">
+                <option value="5">deportista</option>
+                <option value="6">bombero</option>
+                <option value="7">paseador de perros</option>
+                <option value="8">taxista</option>
+                <option value="9">vendedor ambulante</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>

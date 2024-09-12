@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    /* text-decoration: none; */
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vhr {
+    border-left: 2px solid black;
+}
+
+
+
+
+
+/* HEADER     HEADER    HEADER    HEADER    HEADER    HEADER */
+header {
+    height: 3.8rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1b1b1b;
+}
+#logo {
+    width: 222px;
+    vertical-align: middle;
+}
+
+
+
+/* MAIN     MAIN    MAIN    MAIN    MAIN    MAIN */
+main {
+    background-color: rgb(247, 151, 30, 0.9);
+    height: calc(100vh - 3.8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.contenedor {
+    height: 100%;
+    width: 100%;
+    padding: 2rem 3rem 2rem 3rem; 
+    
+}
+.tarjeta {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 1rem;
+    background-color: white;
+    border: solid rgb(27, 27, 27) 2px;
+    box-shadow: 0rem 0rem 0.8rem  black;
+}
+
+.formulario {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+

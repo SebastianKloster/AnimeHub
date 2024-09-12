@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+body::-webkit-scrollbar-track {
+  background:#1B1B1B;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #F7971E;
+}
+
+
+header {
+    height: 3.8rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b1b1b;
+    background-size: 14rem;
+}
+
+
+
+#search{
+	width: 300px;
+	padding: 9px;
+	background: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	font-size: 17px;
+	outline: none;
+	color: #000;
+}
+
+.logo{
+    width: 220px;
+    align-items: center;
+}
+
+.user {
+    margin-right: 4rem;
+
+    color: rgb(228, 228, 228);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.titulo{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info-container{
+    display: flex;
+}
+
+.portada img{
+    box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+}
+
+.info{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.info .sinapsis{
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F7971E;
+    width:60%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.info .sinapsis p{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.info .valoracion{
+    border-radius: 0px 10px 11px 0px;
+    width: 40%;
+    background-color: #1B1B1B;
+}
+
+.info .valoracion .estrellas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    width: 100%;
+    height:200px;
+    border-bottom: 3px solid #000;
+}
+
+.info .valoracion .estrellas .one-star .graphic{
+    width: 30px;
+    height: 30px;
+    background-color: #F7971E;
+}
+
+.info .valoracion .estrellas .two-star .graphic{
+    width: 30px;
+    height: 60px;
+    background-color: #F7971E;
+}
+
+.info .valoracion .estrellas .three-star .graphic{
+    width: 30px;
+    height: 90px;
+    background-color: #F7971E;
+}
+
+.info .valoracion .estrellas .four-star .graphic{
+    width: 30px;
+    height: 120px;
+    background-color: #F7971E;
+}
+
+.info .valoracion .estrellas .five-star .graphic{
+    width: 30px;
+    height: 150px;
+    background-color: #F7971E;
+}
+
+.info .valoracion .estrellas img{
+    width: 30px;
+}
+
+.info .valoracion .best-coment{
+    height:300px;
+    width: 100%;
+}
+
+.info .valoracion .best-coment .coment{
+    position: relative;
+    z-index: 0;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgba(38, 38, 38, 0.5);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+}
+
+.perfil-data{
+    display: flex;
+    border: 1px solid black;
+}
+
+.perfil-data p{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.perfil-data .likes{
+    margin-top: 10px;
+    margin-left: 100px;
+    color: #F7971E;
+    font-size: 20px;
+}
+
+.info .valoracion .best-coment .coment img{
+    position: relative;
+    z-index: 10px;
+    margin-top: -15px;
+    margin-left: -10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 50px;
+}
+
+.parrafo{
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.episodios{
+    width: 95%;
+    margin-left: 35px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ep{
+    margin: 30px 0px 30px 30px;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgba(38, 38, 38, 0.5);
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    z-index: 100;
+}
+
+.fondo{
+    position: relative;
+    z-index: 0;
+}
+
+.ep .fondo img{
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+}
+
+.ep-info{
+    height: 50px;
+    background-color: #1B1B1B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -50px;
+    
+}
+
+.ep:hover{
+    cursor: pointer;
+    box-shadow: 0rem 0rem 1rem 0.1rem rgba(38, 38, 38, 0.5);
+}
+
+@media screen and (min-width:700px){
+    .logo{
+        margin-left: 10px;
+    }
+
+    .info .valoracion .best-coment .coment{
+        margin-left: 30px;
+    }
+}

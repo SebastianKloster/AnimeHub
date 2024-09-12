@@ -1,0 +1,79 @@
+<!-- <?php 
+    include_once '../php/conexion.php';
+
+    if (isset($_POST["submit_register"]))
+	{
+		$email = $_POST["email"];
+		$username = $_POST["username"];
+		$password = $_POST["password"];
+		$date = $_POST["date"];
+		$mobile = $_POST["mobile"];
+        $img = $_POST["img"];
+
+		$accion = "INSERT INTO cuentas (email,username,password,date,mobile,img) VALUES ('$email','$username,'$password','$date','$mobile','$img')";
+
+		$resultado = mysqli_query($conexion,$accion);
+
+
+			if ($resultado)
+		{
+			 echo "<script> alert('Datos Guardados con Exito'); </script>";
+		} else 
+		{
+			 echo "<script> alert('Hubo un problema'); </script>";
+		}
+
+
+	}
+?> -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/style_login.css">
+    
+
+</head>
+<body>
+    <div class="general">
+        <header>
+            <a href="../index.html"><img id="logo" src="../img/Logo.png"></a>
+        </header>
+        <main>
+            <div class="contenedor">
+                <div class="tarjeta centrar">
+                    <div class="formulario">
+                        <form method="">
+                            <div class="form_left">
+                                <label for="username">Nombre de Usuario:</label>
+                                <input type="text" id="username">
+
+
+                            </div>
+                            <div class="vhr"></div>
+                            <div class="form_right">
+                                <input type="text">
+
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
